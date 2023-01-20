@@ -1,33 +1,38 @@
 import Image from "next/image"
 import Link from "next/link"
+import { AiOutlineCaretDown } from "react-icons/ai";
+
 
 export default function nav() {
   return (
-    <div className='bg-light_blue w-full h-[11vh] flex justify-between items-center px-16'>
 
-      <div className="bg-teal-400">
+    <div className='bg-light_blue w-full h-[11vh] flex justify-between items-center px-24'>
+
+
+      <div>
         <div className="">
           <Image />
         </div>
-        <h1>Healing</h1>
+        <h1 className="text-3xl">Healing</h1>
       </div>
 
-      <div className="bg-amber-300">
-          <ul className="flex items-center gap-12">
-            <li>
+      <div>
+          <ul className="flex items-center gap-2">
+            <li className="ml-14">
               <Link href='/'>Home</Link>
             </li>
-            <li>
-              <Link href='/blog'>Blog</Link>
+            <li className="ml-14">
+              <Link href='/blog'>Blogs</Link>
             </li>
-            <li>
+            <li className="ml-14 flex items-center">
               <Link href='/about'>About</Link>
+              <div className="relative left-2"><AiOutlineCaretDown/></div>
             </li>
-            <li>
+            <li className="ml-14 ">
               <Link href='/contact-us'>Contact Us</Link>
             </li>
-            <li>
-              <Link href='/login'>Log In</Link>
+            <li className="bg-[#2DD3E3] w-24 h-8 flex justify-center items-center rounded ml-14">
+              <Link className="" href='/login'>Log In</Link>
             </li>
           </ul>
       </div>
