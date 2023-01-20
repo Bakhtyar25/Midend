@@ -5,7 +5,9 @@ import { AiOutlineCaretDown } from "react-icons/ai";
 
 export default function nav() {
   return (
-    <div className='bg-[#EAF8F9] w-full h-[11vh] flex justify-between items-center px-24'>
+
+    <div className='bg-light_blue w-full h-[11vh] flex justify-between items-center px-24'>
+
 
       <div>
         <div className="">

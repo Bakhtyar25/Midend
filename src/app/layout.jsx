@@ -15,16 +15,17 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head />
 
+
       <body className={poppins.className}>
 
         <div className='h-screen w-full bg-slate-400'>
         <Nav/>
           <div className=''>{children}</div>
         <Footer/>
+
         </div>
-
+        <Footer />
       </body>
-
     </html>
-  )
+  );
 }
