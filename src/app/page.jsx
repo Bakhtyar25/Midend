@@ -6,8 +6,10 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Page() {
 
   return (
-    <div>
-      <h1>this is Home page</h1>
+    <div >
+      <div className='back_image h-[87vh] w-full'>
+
+      </div>
     </div>
 
   )

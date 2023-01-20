@@ -10,6 +10,7 @@
   box-sizing: border-box;
 }
 
-.img{
-  background-image: url('/public/images/image1.png');
+.back_image{
+  background-image: url(../../public/images/backgImageHome.png);
+  object-fit: cover;
 }

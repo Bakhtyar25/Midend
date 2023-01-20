@@ -18,13 +18,12 @@ export default function RootLayout({ children }) {
 
       <body className={poppins.className}>
 
-        <div className='h-screen w-full bg-slate-400'>
+        <div className='h-screen w-full'>
         <Nav/>
           <div className=''>{children}</div>
         <Footer/>
-
         </div>
-        <Footer />
+        
       </body>
     </html>
   );
