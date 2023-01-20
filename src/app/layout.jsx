@@ -1,7 +1,6 @@
-import '../styles/globals.css'
-import Nav from '@/components/nav'
-import Footer from '@/components/footer'
-
+import "../styles/globals.css";
+import Nav from "@/components/nav";
+import Footer from "@/components/footer";
 
 export default function RootLayout({ children }) {
   return (
@@ -9,15 +8,12 @@ export default function RootLayout({ children }) {
       <head />
 
       <body>
-
-        <div className='h-screen w-full bg-slate-400'>
-        <Nav/>
-          <div className=''>{children}</div>
-        <Footer/>
+        <Nav />
+        <div className="min-h-screen w-full img">
+          <div className="">{children}</div>
         </div>
-
+        <Footer />
       </body>
-
     </html>
-  )
+  );
 }

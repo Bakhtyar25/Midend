@@ -9,3 +9,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.img{
+  background-image: url('/public/images/image1.png');
+}
