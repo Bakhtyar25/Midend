@@ -26,7 +26,7 @@ export default function nav() {
             </li>
             <li className="ml-14 flex items-center">
               <Link href='/about'>About</Link>
-              <div className="relative left-2"><AiOutlineCaretDown/></div>
+              <div className="relative left-2 cursor-pointer"><AiOutlineCaretDown/></div>
             </li>
             <li className="ml-14 ">
               <Link href='/contact-us'>Contact Us</Link>
